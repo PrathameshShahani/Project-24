@@ -21,7 +21,7 @@ class Paper
     push();
     translate(pos.x, pos.y);
     rotate(angle);
-    ellipseMode(CENTER);
+    ellipseMode(RADIUS);
     strokeWeight(4);
     stroke("blue");
     fill(255);
